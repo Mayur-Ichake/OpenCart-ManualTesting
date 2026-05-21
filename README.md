@@ -1,43 +1,61 @@
-OpenCart Manual Testing Project
-Project Overview
+# OpenCart Manual Testing Project
 
-This project focuses on performing Manual Testing on the OpenCart E-Commerce web application. The objective of this project is to validate the functionality, usability, reliability, and overall behavior of the application by executing different testing activities throughout the Software Testing Life Cycle (STLC).
+## Project Overview
+This project is based on Manual Testing of the OpenCart E-Commerce Web Application.  
+The main objective of this project is to validate the application's functionality, usability, and reliability through different testing techniques and testing activities.
 
-The project covers major e-commerce functionalities such as user registration, login, product search, cart management, checkout process, and order handling.
+The project covers end-to-end testing of major e-commerce functionalities such as user registration, login, product search, add to cart, checkout process, and order management.
 
-Application Details
-Field	Details
-Project Name	OpenCart Manual Testing Project
-Application Type	Web Application
-Domain	E-Commerce
-Testing Type	Manual Testing
-Website	OpenCart
-Tools Used	Excel, Browser DevTools
-OS	Windows
-Browser	Chrome / Edge / Firefox
-Modules Covered
-User Registration
-Login & Logout
-Product Search
-Product Details
-Add to Cart
-Wishlist
-Checkout Process
-Order Placement
-My Account
-Order History
-Testing Activities Performed
-Requirement Understanding
-Test Planning
-Test Scenario Writing
-Test Case Design
-Test Execution
-Bug Reporting & Tracking
-Retesting
-Regression Testing
-RTM Preparation
-Test Summary Reporting
-Project Structure
+---
+
+# Project Information
+
+| Field | Details |
+|-------|---------|
+| Project Name | OpenCart Manual Testing Project |
+| Domain | E-Commerce |
+| Application Type | Web Application |
+| Testing Type | Manual Testing |
+| Website | https://www.opencart.com/ |
+| Tools Used | Excel, Browser DevTools |
+| Operating System | Windows |
+| Browsers Tested | Chrome, Edge, Brave |
+
+---
+
+# Modules Covered
+
+- User Registration
+- Login & Logout
+- Product Search
+- Product Details Page
+- Add to Cart
+- Wishlist
+- Checkout Process
+- Payment Flow
+- My Account
+- Order History
+
+---
+
+# Testing Activities Performed
+
+- Requirement Analysis
+- Test Planning
+- Test Scenario Preparation
+- Test Case Design
+- Test Execution
+- Defect Reporting
+- Retesting
+- Regression Testing
+- RTM Preparation
+- Test Summary Reporting
+
+---
+
+# Project Structure
+
+```text
 OpenCart Manual Testing Project
 │
 ├── FRS(OpenCart)
@@ -47,43 +65,62 @@ OpenCart Manual Testing Project
 ├── Test Execution(Open Cart)
 ├── Bug Report(OpenCart)
 └── RTM(Opencart)
-Documents Included
-1. FRS (Functional Requirement Specification)
+```
 
-Contains application functionality, modules, and business flow understanding.
+---
 
-2. Test Plan
+# Documents Included
 
-Contains testing scope, objectives, testing types, tools, timelines, entry & exit criteria.
+## 1. FRS (Functional Requirement Specification)
+Contains application functionalities, module details, and business workflow understanding.
 
-3. Test Scenarios
+## 2. Test Plan
+Contains project scope, objectives, testing types, testing strategy, tools, entry and exit criteria.
 
-High-level testing scenarios prepared for different modules.
+## 3. Test Scenarios
+Contains high-level test scenarios prepared for different modules of the application.
 
-4. Test Cases
+## 4. Test Cases
+Contains detailed test cases with:
+- Test Case ID
+- Preconditions
+- Test Steps
+- Expected Result
+- Actual Result
+- Status
 
-Detailed test cases with steps, expected results, and status.
+## 5. Test Execution Report
+Contains execution status of test cases including Pass/Fail results.
 
-5. Test Execution Report
+## 6. Bug Report
+Contains defects identified during testing with:
+- Bug ID
+- Severity
+- Priority
+- Steps to Reproduce
+- Expected Result
+- Actual Result
+- Status
 
-Execution status of test cases including Pass/Fail results.
+## 7. RTM (Requirement Traceability Matrix)
+Contains mapping between requirements and test cases to ensure complete test coverage.
 
-6. Bug Report
+---
 
-Defects identified during execution with severity and priority.
+# Types of Testing Performed
 
-7. RTM (Requirement Traceability Matrix)
+- Functional Testing
+- UI Testing
+- Smoke Testing
+- Sanity Testing
+- Regression Testing
+- Compatibility Testing
 
-Mapping between requirements and test cases.
+---
 
-Types of Testing Performed
-Functional Testing
-UI Testing
-Smoke Testing
-Sanity Testing
-Regression Testing
-Compatibility Testing
-Sample User Flow
+# Sample User Flow
+
+```text
 Home Page
    ↓
 Register/Login
@@ -99,16 +136,27 @@ Checkout
 Payment
    ↓
 Order Confirmation
-Key Learnings
-Understanding Software Testing Life Cycle (STLC)
-Writing professional test cases and scenarios
-Identifying and reporting defects
-Performing regression and retesting
-Working with RTM and execution reports
-Understanding e-commerce workflow testing
-Conclusion
+```
 
-This project helped in gaining practical exposure to Manual Testing processes in a real-time e-commerce application. It improved understanding of test design techniques, defect management, and overall QA workflow.
+---
 
-Author
-Mayur Ichake
+# Key Learnings
+
+- Understanding Software Testing Life Cycle (STLC)
+- Writing professional test scenarios and test cases
+- Performing functional and regression testing
+- Identifying and reporting defects
+- Preparing RTM and execution reports
+- Understanding real-time e-commerce workflow testing
+
+---
+
+# Conclusion
+
+This project provided practical exposure to Manual Testing processes in a real-time E-Commerce application.  
+It helped in improving testing knowledge, defect reporting skills, and overall understanding of QA activities followed in software industries.
+
+---
+
+# Author
+**Mayur Ichake**  
