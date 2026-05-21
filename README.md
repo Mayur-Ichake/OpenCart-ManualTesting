@@ -1,37 +1,114 @@
-# Manual Testing OpenCart WebApp
-This project is dedicated to manual testing of the OpenCart web application. It includes test cases, test plans, and documentation to guide manual testers in evaluating the functionality and usability of OpenCart.
+OpenCart Manual Testing Project
+Project Overview
 
-## Features:
-1. A comprehensive set of manual test cases.
-2. Test plans and documentation for organized testing.
-3. Instructions for performing manual tests on OpenCart.
+This project focuses on performing Manual Testing on the OpenCart E-Commerce web application. The objective of this project is to validate the functionality, usability, reliability, and overall behavior of the application by executing different testing activities throughout the Software Testing Life Cycle (STLC).
 
+The project covers major e-commerce functionalities such as user registration, login, product search, cart management, checkout process, and order handling.
 
-## Getting Started:
+Application Details
+Field	Details
+Project Name	OpenCart Manual Testing Project
+Application Type	Web Application
+Domain	E-Commerce
+Testing Type	Manual Testing
+Website	OpenCart
+Tools Used	Excel, Browser DevTools
+OS	Windows
+Browser	Chrome / Edge / Firefox
+Modules Covered
+User Registration
+Login & Logout
+Product Search
+Product Details
+Add to Cart
+Wishlist
+Checkout Process
+Order Placement
+My Account
+Order History
+Testing Activities Performed
+Requirement Understanding
+Test Planning
+Test Scenario Writing
+Test Case Design
+Test Execution
+Bug Reporting & Tracking
+Retesting
+Regression Testing
+RTM Preparation
+Test Summary Reporting
+Project Structure
+OpenCart Manual Testing Project
+│
+├── FRS(OpenCart)
+├── Test Plan(OpenCart)
+├── OpenCart_Test_Scenarios
+├── Test cases(Open Cart)
+├── Test Execution(Open Cart)
+├── Bug Report(OpenCart)
+└── RTM(Opencart)
+Documents Included
+1. FRS (Functional Requirement Specification)
 
-1. Clone this repository.
-2. Review the provided test cases and test plans.
-3. Follow the documented steps to execute manual tests on OpenCart.
+Contains application functionality, modules, and business flow understanding.
 
+2. Test Plan
 
+Contains testing scope, objectives, testing types, tools, timelines, entry & exit criteria.
 
-## Project Structure:
+3. Test Scenarios
 
-| File Name | Description |
-|--------------|-------------|
-| FRS(OpenCart).pdf   | This PDF likely contains the Functional Requirements Specification (FRS) document for OpenCart, outlining the functional and non-functional requirements of the software. |
-| TestPlan(OpenCart).pdf   | This PDF is likely a Test Plan document for OpenCart, providing an overview of the testing strategy, objectives, scope, and schedule for testing the software. | 
-| TestScenarios(OpenCart).xlsx | This Excel file likely contains test scenarios for OpenCart, which describe various situations and conditions that need to be tested to ensure the software functions correctly. | 
-| TestCases(OpenCart).xlsx | This Excel file probably contains a set of test cases specifically related to web registration functionality in OpenCart. It likely includes detailed steps, expected results, and test data. |
-| TestExecutions(OpenCart).xlsx | This Excel file probably contains a set of test executions specifically related to web registration functionality in OpenCart. It likely includes detailed steps, test data, expected results, actual results, priority, test results, and comments. |
-| RTM(Opencart).xlsx | This Excel file probably contains the Requirement Traceability Matrix document related to web registration functionality in OpenCart. It likely includes requirement ID, requirement description, test scenario ID and description, test cases, test result, defect ID, and also the summary report. |
-| BugReport(OpenCart).xlsx | This Excel file is likely used for tracking and documenting software bugs and issues found during testing. It may include details such as bug descriptions, severity, status, and steps to reproduce. |
+High-level testing scenarios prepared for different modules.
 
-## Contributions:
+4. Test Cases
 
-Contributions are welcome! Feel free to submit issues, enhancements, or suggestions to improve the manual testing process for OpenCart.
-Happy Manual Testing! 🚀
+Detailed test cases with steps, expected results, and status.
 
+5. Test Execution Report
 
+Execution status of test cases including Pass/Fail results.
 
+6. Bug Report
 
+Defects identified during execution with severity and priority.
+
+7. RTM (Requirement Traceability Matrix)
+
+Mapping between requirements and test cases.
+
+Types of Testing Performed
+Functional Testing
+UI Testing
+Smoke Testing
+Sanity Testing
+Regression Testing
+Compatibility Testing
+Sample User Flow
+Home Page
+   ↓
+Register/Login
+   ↓
+Search Product
+   ↓
+View Product Details
+   ↓
+Add Product to Cart
+   ↓
+Checkout
+   ↓
+Payment
+   ↓
+Order Confirmation
+Key Learnings
+Understanding Software Testing Life Cycle (STLC)
+Writing professional test cases and scenarios
+Identifying and reporting defects
+Performing regression and retesting
+Working with RTM and execution reports
+Understanding e-commerce workflow testing
+Conclusion
+
+This project helped in gaining practical exposure to Manual Testing processes in a real-time e-commerce application. It improved understanding of test design techniques, defect management, and overall QA workflow.
+
+Author
+Mayur Ichake
